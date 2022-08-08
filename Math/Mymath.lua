@@ -7,7 +7,7 @@
 --- "Require All" file to make life easier on the end-user
 ---@endsection
 
-require("samohtAPI.Utils.SACopy")
+require("SamohtAPI.Utils.SACopy")
 
 ---@section Mymath 1 Mymathclass
 ---@class Mymath
