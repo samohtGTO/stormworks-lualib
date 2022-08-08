@@ -7,7 +7,7 @@
 --- "Require All" file to make life easier on the end-user
 ---@endsection
 
-require("SamohtAPI.Utils.SACopy")
+require("samohtAPI.Utils.SACopy")
 
 ---@section PID 1 PIDclass
 ---@class PID
