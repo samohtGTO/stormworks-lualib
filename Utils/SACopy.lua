@@ -10,7 +10,7 @@
 ---@diagnostic disable: undefined-doc-name
 
 ---@section samohtAPI 1 samohtAPICLASS
-samohtAPI = samohtAPI or {}
+SamohtAPI = SamohtAPI or {}
 
 ---@section sa_copy
 --- Copies data from (from) to (to)
@@ -22,7 +22,7 @@ samohtAPI = samohtAPI or {}
 --- @param overwrite boolean true if all keys should be overwritten
 --- @overload fun(from:T):T
 --- @return T true if the current instance, is a type that inherits from the given class
-samohtAPI.lb_copy = function(from,to,overwrite)
+SamohtAPI.lb_copy = function(from,to,overwrite)
     to=to or {}
     for k,v in pairs(from) do
         to[k] = not overwrite and to[k] or v  --underwrites, so the original values are kept if they existed
@@ -35,7 +35,7 @@ end;
 --- An empty function for any stubs, but also reducing the code needed for 
 ---   "if onHoverFunction ~= nil then onHoverFunction end -> (onHoverFunction or LBEmptyFunction)()"
 ---@vararg any any
-samohtAPI.lb_doNothing = function()end;
+SamohtAPI.lb_doNothing = function()end;
 ---@endsection
 
 ---@endsection samohtAPICLASS

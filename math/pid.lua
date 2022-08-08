@@ -7,11 +7,11 @@
 --- "Require All" file to make life easier on the end-user
 ---@endsection
 
-require("samohtAPI.Utils.SACopy")
+require("SamohtAPI.Utils.SACopy")
 
 ---@section PID 1 PIDclass
 ---@class PID
-samohtAPI.PID = {
+SamohtAPI.PID = {
   ---@section pid 2 pidclass
   ---@param p number p is portinol gain
   ---@param i number i is intergral gain
