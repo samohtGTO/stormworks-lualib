@@ -46,5 +46,5 @@ SamohtAPI.Mymath = {
   }
   ---@endsection pidclass
   end
-  ---@endsection Mymath
+  ---@endsection
 }
