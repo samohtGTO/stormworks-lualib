@@ -6,3 +6,7 @@
 --- If you have any issues, please report them here: https://github.com/nameouschangey/STORMWORKS_VSCodeExtension/issues - by Nameous Changey
 --- "Require All" file to make life easier on the end-user
 ---@endsection
+
+require("SamohtAPI.Utils.SACopy")
+
+require("SamohtAPI.math.pid")
