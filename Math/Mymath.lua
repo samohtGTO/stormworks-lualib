@@ -1,4 +1,4 @@
----@section pid_boilerplate
+---@section Mymath_boilerplate
 -- Author: samohtGTO
 -- GitHub: https://github.com/samohtGTO
 -- Workshop: https://steamcommunity.com/profiles/76561199180960360/myworkshopfiles/?appid=573090
@@ -9,9 +9,9 @@
 
 require("samohtAPI.Utils.SACopy")
 
----@section PID 1 PIDclass
----@class PID
-SamohtAPI.PIDD = {
+---@section Mymath 1 Mymathclass
+---@class Mymath
+SamohtAPI.Mymath = {
   ---@section pid 2 pidclass
   ---@param p number p is portinol gain
   ---@param i number i is intergral gain
