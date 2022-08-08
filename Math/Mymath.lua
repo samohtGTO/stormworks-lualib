@@ -12,7 +12,7 @@ require("SamohtAPI.Utils.SACopy")
 ---@section Mymath 1 Mymathclass
 ---@class Mymath
 SamohtAPI.Mymath = {
-  ---@section pid 2 pidclass
+  ---@section pid 1 pidclass
   ---@param p number p is portinol gain
   ---@param i number i is intergral gain
   ---@param d number d is derivative gain
