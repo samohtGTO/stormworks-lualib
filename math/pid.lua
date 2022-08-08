@@ -11,7 +11,7 @@ require("samohtAPI.Utils.SACopy")
 
 ---@section PID 1 PIDclass
 ---@class PID
-SamohtAPI.PID = {
+SamohtAPI.PIDD = {
   ---@section pid 2 pidclass
   ---@param p number p is portinol gain
   ---@param i number i is intergral gain
