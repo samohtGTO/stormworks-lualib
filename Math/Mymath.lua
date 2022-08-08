@@ -42,9 +42,10 @@ SamohtAPI.Mymath = {
       end
       return E*s.p +(A<E and s.I or 0) +D*s.d
     end
-    ---@endsection
-  }
-  ---@endsection pidclass
+    ---@endsection run
+  } 
   end
-  ---@endsection
+  ---@endsection pidclass
+
 }
+---@endsection mymath
