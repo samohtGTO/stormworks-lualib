@@ -8,9 +8,8 @@
 ---@endsection
 
 require("SamohtAPI.Utils.SACopy")
-
----@section Mymath 1 Mymathclass
 ---@class Mymath
+---@section Mymath 1 Mymathclass
 SamohtAPI.Mymath = {
   ---@section pid 1 pidclass
   ---@param p number p is portinol gain
@@ -41,6 +40,13 @@ SamohtAPI.Mymath = {
       elseif nm==3 then return M.min(M.max(O,n),m)
       end
       return E*s.p +(A<E and s.I or 0) +D*s.d
+    end
+    ---@endsection
+    ,
+    ---@section reset
+    ---@return table pid reset the pid
+    reset=function(s)
+      return pid(p,i,d,nm,n,m)
     end
     ---@endsection
   } 
