@@ -44,6 +44,7 @@ SamohtAPI.Mymath = {
     ---@endsection
     ,
     ---@section reset
+    ---@param s table using it self(the ":"call func) to reset it self
     ---@return table pid reset the pid
     reset=function(s)
       return pid(p,i,d,nm,n,m)
